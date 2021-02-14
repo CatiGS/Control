@@ -1,0 +1,83 @@
+                /* Desktop - 1 */
+                
+                #Desktop-1 {
+                    position: relative;
+                    width: 1440px;
+                    height: 5000px;
+                    background: #FFFFFF;
+                }
+                /* Rectangle 1 */
+                
+                #box1 {
+                    position: absolute;
+                    width: 200px;
+                    height: 5065px;
+                    left: 516px;
+                    top: -32px;
+                    background: #C4C4C4;
+                }
+                /* Rectangle 3 */
+                
+                #box3 {
+                    position: absolute;
+                    width: 39px;
+                    height: 5065px;
+                    left: 477px;
+                    top: -32px;
+                    background: #C4C4C4;
+                    border: 6px solid #FFFFFF;
+                    box-sizing: border-box;
+                }
+                /* Rectangle 4 */
+                
+                #box4 {
+                    position: absolute;
+                    width: 39px;
+                    height: 5065px;
+                    left: 916px;
+                    top: -32px;
+                    background: #C4C4C4;
+                    border: 6px solid #FFFFFF;
+                    box-sizing: border-box;
+                }
+                /* Rectangle 2 */
+                
+                #box2 {
+                    position: absolute;
+                    width: 200px;
+                    height: 5065px;
+                    left: 716px;
+                    top: -32px;
+                    background: #C4C4C4;
+                }
+                /* Line 1 */
+                
+                #line1 {
+                    position: absolute;
+                    width: 4959px;
+                    height: 0px;
+                    left: 720px;
+                    top: 21px;
+                    border: 6px dashed #FFFFFF;
+                    transform: rotate(90deg);
+                }
+                /* racing-car 1 */
+                
+                .racing-car1 {
+                    position: absolute;
+                    width: 512px;
+                    height: 512px;
+                    /*left: 976px;*/
+                    left: 477px;
+                    /*top: 444px;*/
+                    top: 111px;
+                    background: url(racing-car1.png);
+                    transform: rotate(90deg);
+                    z-index: 1;
+                }
+                
+                h1 {
+                    position: relative;
+                    margin-left: 10px;
+                    font-size: 1.25rem;
+                }
